@@ -1,0 +1,43 @@
+.main {
+  background-image: url("./../img/2.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+
+  height: 750px;
+  margin-top: -6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  padding: 0px 10%;
+
+  .callZap{
+    margin-top: 20px;
+  }
+  button {
+    width:100%;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    padding: 16px 0px;
+    
+    background-color: var(--pink-gray);
+    font-weight: 600;
+  }
+
+  .whatsApp{
+    margin: 40px 0px 20px 0px;
+  }
+
+  .portfólio{
+    background-color: var(--yellow-gray)
+  }
+}

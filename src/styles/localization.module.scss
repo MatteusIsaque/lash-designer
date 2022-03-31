@@ -1,0 +1,17 @@
+.main {
+  background-image: url('../img/4.jpg');
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:flex-end;
+
+  padding: 0px 10% 40px 10%;
+  height: 854px;
+
+  h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--font-filter);
+  }
+}
