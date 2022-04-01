@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/whatsAppAndPortfólio.module.scss'
 
 export default function WhatsAppAndPortifolio() {
@@ -13,13 +14,17 @@ export default function WhatsAppAndPortifolio() {
         Agende sua visita em nosso whatsapp
       </p>
 
-      <button className={styles.whatsApp}>
-        AGENDAR NO WHATSAPP
-      </button>
+      <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
+        <button className={styles.whatsApp}>
+          AGENDAR NO WHATSAPP
+        </button>
+      </Link>
 
-      <button className={styles.portfólio}>
-        VER PORTFÓLIO
-      </button>
+      <Link href='/?counter=#slide'>
+        <button className={styles.portfólio}>
+          VER PORTFÓLIO
+        </button>
+      </Link>
     </article>
   )
 }

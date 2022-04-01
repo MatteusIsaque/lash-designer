@@ -19,7 +19,7 @@ export default function Portfólio() {
   };
 
   return (
-    <article className={styles.main}>
+    <article id="slide" className={styles.main}>
       <h2>Portfólio</h2>
       <p>Fio a Fio clássico: É adicionado apenas um fio sintético a cada fio natural.</p>
       <div className={styles.slide}>

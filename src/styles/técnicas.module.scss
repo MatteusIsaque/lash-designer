@@ -8,10 +8,12 @@
     text-align: center;
 
     font-size: 2.5rem;
-    color: white;
+    color: var(--font-filter);
   }
 
   p{
     margin: 10px 0px;
+
+    color: var(--font-filter);
   }
 }

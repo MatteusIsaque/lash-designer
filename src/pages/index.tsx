@@ -11,6 +11,7 @@ import styles from '../styles/Home.module.scss'
 import Portfólio from '../component/portfólio'
 import Agenda from '../component/agenda'
 import Footer from '../component/foooter'
+import PopUp from '../component/popUp'
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +30,10 @@ const Home: NextPage = () => {
         <Portfólio />
         <Agenda />
         <Footer />
+
+        <PopUp />
+
+
       </main>
     </div>
   )

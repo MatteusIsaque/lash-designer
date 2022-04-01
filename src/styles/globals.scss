@@ -4,7 +4,7 @@
   --pink-gray: #bf8dbb;
   --yellow-gray: #ffdfb5;
   --purple-dark: #22202b;
-  --font-filter: #fff;
+  --font-filter: #f6aaa9;
 }
 
 html,
@@ -35,4 +35,8 @@ p {
   color: white;
   font-size: 1.5rem;
   filter: grayscale(0.5);
+}
+
+button{
+  cursor: pointer;
 }
