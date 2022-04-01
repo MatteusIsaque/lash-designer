@@ -7,7 +7,7 @@ import Zap from './../img/whatsapp.png'
 export default function WhatsApp(){
 
   return(
-    <div className={styles.main}>
+    <div  id="buttonZap" className={styles.main}>
       <Image src={Zap} />
     </div>
   )
