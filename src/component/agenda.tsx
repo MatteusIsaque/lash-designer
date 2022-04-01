@@ -10,11 +10,11 @@ export default function Agenda() {
       <h2>Agendar agora</h2>
       <p>Aproveite para solicitar um agendamento e garanta sua vaga no seu melhor horário</p>
 
-      <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
-        <button className={styles.whatsApp}>
+      <button id="buttonZap" className={styles.whatsApp}>
+        <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
           AGENDAR NO WHATSAPP
-        </button>
-      </Link>
+        </Link>
+      </button>
     </article >
   )
 }

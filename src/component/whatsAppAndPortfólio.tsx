@@ -14,11 +14,11 @@ export default function WhatsAppAndPortifolio() {
         Agende sua visita em nosso whatsapp
       </p>
 
-      <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
-        <button className={styles.whatsApp}>
+      <button id="buttonZap" className={styles.whatsApp}>
+        <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
           AGENDAR NO WHATSAPP
-        </button>
-      </Link>
+        </Link>
+      </button>
 
       <Link href='/?counter=#slide'>
         <button className={styles.portfólio}>

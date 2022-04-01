@@ -12,6 +12,8 @@ import Portfólio from '../component/portfólio'
 import Agenda from '../component/agenda'
 import Footer from '../component/foooter'
 import PopUp from '../component/popUp'
+import Suely from '../component/suely'
+import WhatsApp from '../component/whasapp'
 
 const Home: NextPage = () => {
   return (
@@ -25,11 +27,14 @@ const Home: NextPage = () => {
       <main>
         <FirstComponent />
         <WhatsAppAndPorfolio />
+        <Suely />
         <Técnicas />
         <Localization />
         <Portfólio />
         <Agenda />
         <Footer />
+
+        <WhatsApp />
 
         <PopUp />
 
