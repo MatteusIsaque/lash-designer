@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     TagManager.initialize(tagManagerArgs)
 
   }, [])
+  
 
 
   return <Component {...pageProps} />
