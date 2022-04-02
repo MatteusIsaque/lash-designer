@@ -10,7 +10,7 @@ export default function WhatsApp() {
   return (
     <div id="zapFlutuante" className={styles.main}>
       <Link href='https://api.whatsapp.com/send?phone=556199492015&text='>
-        <Image src={Zap} />
+        <Image  id="zapFlutuante" src={Zap} />
       </Link>
     </div >
   )
