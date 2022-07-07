@@ -14,7 +14,7 @@ export default function Portfólio() {
   const responsive = {
     mobile: {
       breakpoint: { max: 768, min: 0 },
-      items: 1
+      items: 2
     }
   };
 
@@ -23,14 +23,29 @@ export default function Portfólio() {
       <h2>Portfólio</h2>
       <p>Fio a Fio clássico: É adicionado apenas um fio sintético a cada fio natural.</p>
       <div className={styles.slide}>
-        <Carousel responsive={responsive}>
-          <Image src={Slide1} />
-          <Image src={Slide2} />
-          <Image src={Slide3} />
-          <Image src={Slide4} />
+        <Carousel infinite={true} responsive={responsive}>
+          <div className={styles.slideItem}>
+            <Image src={Slide1} />
+            <h2>HÍBRIDO</h2>
+          </div>
+          <div className={styles.slideItem}>
+            <Image src={Slide2} />
+            <h2>MEGA VOLUME</h2>
+          </div>
+          <div className={styles.slideItem}>
+            <Image src={Slide3} />
+            <h2>VOLUME RUSSO</h2>
+          </div>
+          <div className={styles.slideItem}>
+            <Image src={Slide4} />
+            <h2>VOLUME BRASILEIRO</h2>
+          </div>
         </Carousel>
-
       </div>
+      <p>Híbrido: O alongamento de cílios híbrido é a fusão do clássico fio a fio com o volume russo.</p>
+      <p>Mega volume: São colocados fios ultrafinos uns nos outros, até ficar com grande volume.</p>
+      <p>Volume russo: O volume russo nos cílios é uma técnica de colocação de cílios com fios sintéticos, para dar um maior volume.</p>
+      <p>Volume brasileiro: Técnica usando cílios em formato Y, que não perdem a curvatura. Ela proporciona fios mais abertos, mas, com um acabamento como o volume russo. Aplicação leva de 1:30 a 2 hs</p>
     </article>
   )
 }
